@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="login_edittext_size">18dp</dimen>
+    <dimen name="padding_horizontal_login">32dp</dimen>
+    <dimen name="boton_ingresar_marginTop">30dp</dimen>
+    <dimen name="boton_login_size">18sp</dimen>
+    <dimen name="height_cardview">250dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="padding_textview_card">10dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+</resources>

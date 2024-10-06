@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_cardview"
+
+
+    android:id="@+id/pictureCard_cardview"
+    app:cardCornerRadius="@dimen/corner_radius_cardview"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/pictureCard"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_cardview"
+
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            >
+
+            <TextView
+                android:id="@+id/userNameCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_textview_card"
+                android:text="@string/username_card"
+                android:textColor="#795CA6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+        >
+
+            <TextView
+                android:id="@+id/corazon_me_gusta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/hint_megusta"
+                android:textColor="@color/black"
+                android:textSize="@dimen/login_edittext_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/numero_me_gusta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/cantidad_me_gusta"
+                android:textColor="@color/black"
+                android:textSize="@dimen/login_edittext_size"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/like_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:button="@drawable/c3"
+                android:shadowColor="#F80000"
+
+                />
+        </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</androidx.cardview.widget.CardView>

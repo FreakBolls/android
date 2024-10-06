@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CL1_Cibertec</string>
+
+    <string name="hint_username">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="text_button_login">Ingresar</string>
+    <string name="username_card">Walter Anfose</string>
+    <string name="cantidad_me_gusta">4</string>
+    <string name="hint_megusta">Me gusta :</string>
+    <string name="hint_correo2">Correitoooo</string>
+
+    <string name="toolbar_title_lista_adaptador">Lista Delivery Man</string>
+</resources>
